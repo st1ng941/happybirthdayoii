@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎂 HAPPY BIRTHDAY SAHANA! 💻</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400;700&display=swap">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Pixel Background -->
+  <div class="pixel-bg">
+    <div class="matrix-rain"></div>
+    <div class="floating-code"></div>
+  </div>
+
+  <!-- Terminal Interface -->
+  <div class="terminal">
+    <div class="terminal-header">
+      <div class="terminal-buttons">
+        <span class="close"></span>
+        <span class="minimize"></span>
+        <span class="maximize"></span>
+      </div>
+      <span class="terminal-title">birthday_terminal.exe</span>
+    </div>
+    
+    <div class="terminal-body">
+      <!-- Birthday Intro -->
+      <div class="command-line">
+        <span class="prompt">user@sahana:~$</span>
+        <span class="command">start_birthday_protocol</span>
+      </div>
+      <div class="output-line">
+        <span class="output">🎉 INITIATING BIRTHDAY SEQUENCE...</span>
+      </div>
+
+      <!-- Main Content -->
+      <div class="app-container">
+        <!-- Pixel Art Header -->
+        <div class="pixel-header">
+          <div class="pixel-cake">🎂</div>
+          <h1 class="pixel-title">HAPPY BIRTHDAY SAHANA</h1>
+          <div class="pixel-stats">
+            <div class="stat">
+              <span class="stat-label">LEVEL:</span>
+              <span class="stat-value">AWESOME++</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">STATUS:</span>
+              <span class="stat-value">LEGENDARY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Message Terminal -->
+        <div class="message-terminal">
+          <div class="terminal-output" id="messageOutput">
+            <div class="message-line">> LOADING HEARTFELT MESSAGE...</div>
+            <div class="message-line">> COMPILING MEMORIES...</div>
+            <div class="message-line">> INITIALIZING LOVE.EXE...</div>
+          </div>
+          <div class="terminal-input">
+            <span class="cursor">></span>
+            <input type="text" id="commandInput" placeholder="Type 'love' to continue..." autofocus>
+          </div>
+        </div>
+
+        <!-- Pixel Games -->
+        <div class="pixel-games">
+          <h2 class="section-title">🎮 BIRTHDAY MINI-GAMES</h2>
+          <div class="games-grid">
+            <div class="pixel-game" data-game="joke">
+              <div class="game-icon">😂</div>
+              <div class="game-title">JOKE_COMPILER</div>
+            </div>
+            <div class="pixel-game" data-game="memory">
+              <div class="game-icon">💾</div>
+              <div class="game-title">MEMORY_DUMP</div>
+            </div>
+            <div class="pixel-game" data-game="love">
+              <div class="game-icon">💖</div>
+              <div class="game-title">LOVE_CALC</div>
+            </div>
+            <div class="pixel-game" data-game="dance">
+              <div class="game-icon">💃</div>
+              <div class="game-title">DANCE_PARTY</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Code Editor Style Message -->
+        <div class="code-editor">
+          <div class="editor-header">
+            <span class="file-name">love_letter.js</span>
+          </div>
+          <div class="editor-body">
+            <div class="line-numbers">
+              <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+              <span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+            </div>
+            <div class="code-content">
+              <div class="code-line"><span class="keyword">const</span> myLoveForSahana = {</div>
+              <div class="code-line">&nbsp;&nbsp;level: <span class="string">"INFINITE"</span>,</div>
+              <div class="code-line">&nbsp;&nbsp;memories: <span class="number">9999</span>,</div>
+              <div class="code-line">&nbsp;&nbsp;happiness: <span class="boolean">true</span>,</div>
+              <div class="code-line">&nbsp;&nbsp;future: <span class="string">"BRIGHT"</span></div>
+              <div class="code-line">};</div>
+              <div class="code-line"></div>
+              <div class="code-line"><span class="comment">// You make every day better!</span></div>
+              <div class="code-line"><span class="function">celebrate</span>(<span class="variable">sahana</span>);</div>
+              <div class="code-line"><span class="keyword">while</span>(<span class="boolean">true</span>) {</div>
+              <div class="code-line">&nbsp;&nbsp;<span class="function">love</span>(<span class="variable">sahana</span>);</div>
+              <div class="code-line">}</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pixel Art Gallery -->
+        <div class="pixel-gallery">
+          <h2 class="section-title">🖼️ PIXEL MEMORIES</h2>
+          <div class="pixel-grid">
+            <div class="pixel-art" data-memory="gaming">
+              <div class="pixel-canvas">🎮</div>
+              <div class="pixel-label">Gaming Sessions</div>
+            </div>
+            <div class="pixel-art" data-memory="movies">
+              <div class="pixel-canvas">🎬</div>
+              <div class="pixel-label">Movie Nights</div>
+            </div>
+            <div class="pixel-art" data-memory="music">
+              <div class="pixel-canvas">🎵</div>
+              <div class="pixel-label">Music Shares</div>
+            </div>
+            <div class="pixel-art" data-memory="suits">
+              <div class="pixel-canvas">👔</div>
+              <div class="pixel-label">Suits Marathon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio -->
+  <div class="audio-controls">
+    <button id="musicToggle" class="pixel-btn">🔊 ENABLE 8BIT MUSIC</button>
+    <audio id="bgMusic" loop>
+      <source src="https://www.soundjay.com/misc/sounds/happy-birthday-song.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <!-- Floating Cursor Effect -->
+  <div class="custom-cursor"></div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
